@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: royalblue;
+  color: white;
+  font-size: 20px;
+}
+
+.introduction {
+  background-color: gray;
+  padding: 20px;
+  margin: 10px 0px;
+}
+.dummy {
+  background-color: rgb(24, 135, 1);
+  padding: 20px;
+  margin: 10px 0px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  transform: scale(0.95);
+}
+
+.styleClass {
+  color: blue;
+  background-color: white;
+}
