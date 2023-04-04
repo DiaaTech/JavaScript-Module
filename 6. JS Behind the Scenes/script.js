@@ -1,4 +1,4 @@
-'use strict'
+// Top of file
 
 // JavaScript Intermediate
 
@@ -201,26 +201,86 @@ let student = {
 // let j = 10
 // do {
 //   console.log('Atleast one time')
-//   console.log(j)
-// } while (j > 20)
+// //   console.log(j)
+// // } while (j > 20)
+// // Top
+// let num1 = 12
+// console.log(num1)
 
-let num1 = 12
-console.log(num1)
+// for (let i = 1; i < 10; i++) {
+//   let variable1 = 'variable1'
+// }
 
-if (num1 === 12) {
-  let text = 'inside block'
-  console.log(text)
+// if (num1 === 12) {
+//   let text = 'inside block'
+//   console.log(text)
 
-  console.log(num1)
+//   console.log(num1)
+// }
+// for (let i = 0; i < 5; i++) {
+//   let insideVar = 3
+//   let an = 50
+
+//   console.log(num1)
+// }
+
+// const myFunction = function () {
+//   let functionvar = 10
+//   console.log('function var', functionvar)
+//   console.log(anothervar)
+
+//   if (true) {
+//     let anothervar = 20
+//     console.log(anothervar, functionvar, num)
+//   }
+// }
+
+// //myFunction()
+// console.log(functionvar)
+
+// let num2 = 20
+
+//top
+
+// How JS will know about this method?
+// myIntroduction()
+// aboutMe()
+
+// console.log(myVar)
+
+var myVar = 20
+
+function myIntroduction() {
+  console.log('Talha')
+  console.log('Developer')
 }
-for (let i = 0; i < 5; i++) {
-  let insideVar = 3
+
+function aboutMe() {
+  console.log('Random')
+  console.log('Dummy')
 }
 
-const myFunction = function () {
-  let functionvar = 10
-  console.log('function var', functionvar)
-}
+// Objects & this key word
+// this keyword is used
+let person = {
+  name: 'Talha',
+  age: 21,
+  address: 'Pakistan',
 
-myFunction()
-console.log(functionvar)
+  eat: function () {
+    console.log(this.name + ' eating...')
+  },
+  play: function () {
+    console.log(this.name + ' playing at the age of ' + this.age)
+  },
+}
+console.log(person.eat())
+person.play()
+
+// Destructuring
+let students = ['Fasil', 'Mussie', 'Ajay', 'Getchew']
+
+// extracting data and storing to seprate variables
+let [first, second, third, fourth] = students
+
+console.log(second)
