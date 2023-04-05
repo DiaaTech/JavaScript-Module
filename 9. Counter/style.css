@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.title {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.number {
+  font-size: 80px;
+  color: green;
+}
+button {
+  padding: 5px 15px;
+  font-size: 25px;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.minus {
+  background-color: red;
+  color: white;
+}
+.plus {
+  color: white;
+  background-color: green;
+}
+.reset {
+  color: white;
+  background-color: grey;
+}
