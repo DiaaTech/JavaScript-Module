@@ -1,0 +1,15 @@
+{
+  "name": "14---modern-js-development",
+  "version": "1.0.0",
+  "description": "My Wesbite",
+  "main": "random.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "author": "Talha",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.9.0"
+  }
+}
